@@ -1,14 +1,14 @@
-$font-stack:    Arial;
 .card {
     box-shadow:  0px 5px 10px 0px rgba(0,0,0,0.2); 
-    transition: 1s;
+    transition: .5s;
     width: 220px;
     border-radius: 10px;
     margin: 15px 10px 15px 10px;
+    background: linear-gradient(white 75%, #EAF2E6);
   }
   
   .card:hover {
-    box-shadow:0px 5px 5px 0px black;
+    box-shadow:0px 5px 5px 0px grey;
   }
   
   img {
@@ -20,3 +20,21 @@ $font-stack:    Arial;
   .container {
     padding: 2px 10px;
   }
+
+  .title {
+    text-align: center;
+color: #6F736D;
+  }
+.order{
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.price{
+  text-align: center;
+  Color:#6F736D;
+  font-size:30px;
+  padding: 5px 0px 0px 0px;
+  font-weight:bold;
+  text-align: center;
+}
